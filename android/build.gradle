@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.google.gms:google-services:3.2.1'
+        classpath 'com.google.gms:google-services:3.2.1' //update to 3.2.1 from 4.3.2 and now  added 2 line in  gradle.properties and url.dist to 5.1.1-zip
         classpath 'com.android.tools.build:gradle:3.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }

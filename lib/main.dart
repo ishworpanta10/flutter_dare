@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   String randomTodo() {
-    final randomNumber = Random().nextInt(4);
+    final randomNumber = Random().nextInt(11);
     String todo;
     switch (randomNumber) {
       case 1:
